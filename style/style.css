@@ -9,6 +9,13 @@ body{
 .text-primary{
     color: #FD6E0A
 }
+h4 {
+  font-family: "Noto Serif", serif;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 55px;
+    margin: 0;
+}
  h5{
     font-family: "Noto Serif", serif;
     font-weight: 800;
@@ -19,7 +26,7 @@ body{
 .sub-title{
     color: rgb(143, 148, 144);
     margin: 0;
-    font-size: 26px;
+    font-size: 24px;
 }
 .container {
   max-width: 1200px;
@@ -56,6 +63,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: end;
+    gap: 50px;
     padding: 100px 0 100px;
 }
 .banner-title{
@@ -98,7 +106,60 @@ body{
      text-align: center;
      width: 100%;
 }
- }
+ 
  .plant img{
     width: 100%;
  }
+#plants-lover {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 100px 0 100px;
+}
+
+.lover-img {
+  
+  position: relative; 
+  width: 100%;
+
+}
+
+.lover-img img {
+  max-width: 100%;
+  height: auto;
+
+}
+
+.badge-img {
+  position: absolute;
+  display: flex;
+  justify-content: end;
+  top: -150px;   
+  right: -50px; 
+  z-index: 1;
+
+}
+
+.badge-img img {
+  max-width: 48%; 
+  height: auto;
+}
+
+.lover-title {
+  margin-top: 30px;
+  margin-left: 20px;
+  text-wrap: wrap ;
+}
+.lover-img,
+.lover-title {
+  flex: 1; 
+}
+.lover-title ul {
+    list-style-type: disc;
+}
+
+.lover-title li {
+  margin-bottom: 10px;
+  color: rgb(143, 148, 144);
+  font-size: 25px;
+    }
