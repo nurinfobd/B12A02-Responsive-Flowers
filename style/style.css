@@ -298,10 +298,9 @@ form{
   margin-right: auto;
   padding: 50px 0 50px;
   display: grid;
-  grid-template-columns: 250px 85px 120px 200px;
+  grid-template-columns: 250px 85px 120px 150px;
   justify-content: space-between;
   align-items: start;
-
 }
 .footer-logo img{
   max-width: 9vw;
@@ -330,9 +329,7 @@ form{
   text-decoration: none;
   color: rgb(143, 148, 144);
   font-size: .7em;
-  
 }
-
 .footer-social-icon  {
   display: flex;
   justify-content: center;
@@ -341,5 +338,4 @@ form{
   gap: 20px;
   width: 36px;
   height: 36px;
-
 }
