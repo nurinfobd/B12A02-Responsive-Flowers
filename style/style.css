@@ -146,6 +146,7 @@ h4 {
 .badge-img img {
   max-width: 45%; 
   height: auto;
+  filter: drop-shadow(2px 4px 6px rgba(0,0,0,0.3));
 }
 
 .lover-title {
