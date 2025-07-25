@@ -167,6 +167,9 @@ h4 {
 .lover-title {
   flex: 1; 
 }
+.lover-title h4 {
+    font-size: 3.5rem;
+}
 .lover-title ul {
     list-style-type: disc;
 }
