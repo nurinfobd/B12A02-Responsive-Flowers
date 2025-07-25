@@ -364,7 +364,7 @@ form{
  .sub-title {
     color: rgb(143, 148, 144);
     margin: 0;
-    font-size: 16px;
+    font-size: 17px;
 }
 h5{
   font-size: 32px;
@@ -409,19 +409,21 @@ h5{
 
     .banner-title p {
     margin-top: 20px; 
-    font-size: 16px;
+    font-size: 17px;
   }
   #plants{
     display: flex;
     flex-direction: column;
+    align-items: center;
     
   }
   .plants-title {
   text-align: center;
+  max-width: 336px;
 }
 
 .plants-title h5 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-bottom: 10px;
   font-weight: 600;
 }
@@ -430,7 +432,7 @@ h5{
 
 #plants > .plants-title p {
   color: #6c757d;
-  font-size: 19px;
+  font-size: 17px;
 }
 
 .plants-cart{
@@ -462,9 +464,15 @@ h5{
 }
 #deals{
   padding: 0 0 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 #deals .title{
   padding-bottom: 50px;
+  max-width: 336px;
+  text-align: center;
 }
 #deals .title h5{
    font-size: 2rem;
@@ -474,7 +482,8 @@ h5{
 
 #deals > .title p {
   color: #6c757d;
-  font-size: 19px;
+  
+  font-size: 16px;
 }
 
 .collage{
