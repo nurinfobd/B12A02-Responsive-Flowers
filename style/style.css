@@ -414,7 +414,7 @@ h5{
   #plants{
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    
   }
   .plants-title {
   text-align: center;
@@ -425,13 +425,14 @@ h5{
   margin-bottom: 10px;
   font-weight: 600;
 }
-  .plants-title .sub-title {
+ 
+
+
+#plants > .plants-title p {
   color: #6c757d;
-  font-size: 1rem;
-  max-width: 600px;
- 
- 
+  font-size: 19px;
 }
+
 .plants-cart{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
